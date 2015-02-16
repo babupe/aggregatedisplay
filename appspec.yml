@@ -12,7 +12,7 @@ permissions:
 hooks:
   BeforeInstall:
     - location: scripts/installcomposer.sh
-    - runas: ec2-user
+      runas: ec2-user
   AfterInstall:
     - location: scripts/restarthttp.sh
-    - runas: ec2-user
+      runas: ec2-user
