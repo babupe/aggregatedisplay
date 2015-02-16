@@ -82,7 +82,7 @@
 			echo "End Date should be greater than Start Date";
 		}
 		if ( $enddate > $agodate ) {
-			if ( $starttime-$endtime > 1440 ) {
+			if ( $starttime-$endtime > 1382 ) {
 				echo "<p align=\"center\" style=\"color:red\">";
                         	echo "Choose a date range smaller than 1 day!";
 			}
